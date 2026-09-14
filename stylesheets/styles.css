@@ -422,3 +422,63 @@ h2[id] {
     margin-top: 0;
   }
 }
+.interests p {
+  margin: 0 0 8px;
+}
+
+.interests p:last-child {
+  margin-bottom: 20px;
+}
+
+.interests ul {
+  margin: 0 0 8px;
+  padding-left: 22px;
+}
+
+.interests li {
+  margin: 0 0 3px;
+}
+
+.interests p strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.mentees {
+  margin: 0 0 20px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.mentees li {
+  margin: 0 0 3px;
+}
+
+#about h3 {
+  font-size: 15px;
+}
+
+.shows {
+  padding-left: 22px;
+}
+
+.shows li {
+  margin: 0 0 3px;
+}
+
+h2#personal ~ p {
+  margin: 0 0 8px;
+}
+
+.interests > p + p,
+.interests > ul + p {
+  margin-top: 18px;
+}
+
+h2#teaching ~ p {
+  margin: 0 0 8px;
+}
+
+h2#experience ~ p {
+  margin: 0 0 16px;
+}
